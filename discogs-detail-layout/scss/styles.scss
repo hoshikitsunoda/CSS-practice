@@ -17,10 +17,19 @@ header {
   margin: 0;
 }
 
-.fa {
+.fa-sort-desc {
   position: absolute;
   color: #cbcccb;
   top: -5%;
+  padding-left: 8px;
+}
+
+.fa-search {
+  font-size: $base-font-size + 3;
+  position: absolute;
+  color: #6a6860;
+  top: 34%;
+  left: 37.75%;
   padding-left: 8px;
 }
 
