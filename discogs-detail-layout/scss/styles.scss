@@ -54,7 +54,7 @@ h4 {
 .fa-envelope-o {
   font-size: $base-font-size - 2;
   position: absolute;
-  color: #fdfefd;
+  color: #cbcccb;
   top: 21px;
   left: 85.9%;
   padding-left: 8px;
@@ -98,4 +98,19 @@ h4 {
 
 #menu-marketplace {
   width: 17.3%;
+}
+
+#user-img {
+  position: absolute;
+  top: 13px;
+  right: 131px;
+}
+
+#sort-user {
+  font-size: $base-font-size - 2;
+  position: absolute;
+  color: #cbcccb;
+  top: 18px;
+  right: 113px;
+  padding-left: 9px;
 }
