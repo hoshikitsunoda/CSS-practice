@@ -154,4 +154,20 @@ h4 {
 #artist-title {
   position: relative;
   margin-bottom: 10px;
+  height: 183px;
+}
+
+#img-container {
+  position: relative;
+  top: 17px;
+  width: 150px;
+  max-height: 155px;
+  margin: 0 10px 28px 0;
+  float: left;
+}
+
+#record-img {
+  position: relative;
+  width: 100%;
+  height: auto;
 }
