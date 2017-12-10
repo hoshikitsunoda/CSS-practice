@@ -171,3 +171,11 @@ h4 {
   width: 100%;
   height: auto;
 }
+
+#more-images {
+  position: relative;
+  font-size: $base-font-size - 4;
+  text-decoration: none;
+  top: 12px;
+  left: 45px;
+}
