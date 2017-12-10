@@ -15,6 +15,10 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 #outer-wrapper {
   position: relative;
   height: 100%;
@@ -81,6 +85,23 @@ h4 {
   top: 21px;
   left: 85.9%;
   padding-left: 8px;
+}
+
+.head {
+  font-size: $base-font-size - 2;
+  display: inline;
+  width: 90px;
+  margin: 6px 0;
+  padding: 0;
+}
+
+.content {
+  font-size: $base-font-size - 2;
+  display: block;
+  position: relative;
+  top: -4px;
+  padding-left: 95px;
+  margin-top: -12px;
 }
 
 #logo {
@@ -186,10 +207,5 @@ h4 {
 
 #profile-title {
   font-size: $base-font-size + 5;
-  font-weight: bolder;
-}
-
-#name {
-  text-decoration: none;
   font-weight: bolder;
 }
