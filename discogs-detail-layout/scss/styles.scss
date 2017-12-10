@@ -19,6 +19,15 @@ a {
   text-decoration: none;
 }
 
+table {
+  width: 99%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid #e5e5e5;
+}
+
 #outer-wrapper {
   position: relative;
   height: 100%;
@@ -102,6 +111,28 @@ h4 {
   top: -4px;
   padding-left: 95px;
   margin-top: -12px;
+}
+
+.section-content {
+  margin: 0 5px;
+  padding: 5px 0;
+}
+
+.track-number {
+  padding: 3px 14px 3px 2px;
+  font-size: $base-font-size - 2;
+}
+
+.track-title {
+  min-width: 350px;
+  font-size: $base-font-size - 2;
+  padding: 3px;
+}
+
+.track-time {
+  text-align: right;
+  padding-right: 10px;
+  font-size: $base-font-size - 2;
 }
 
 #logo {
@@ -208,4 +239,16 @@ h4 {
 #profile-title {
   font-size: $base-font-size + 5;
   font-weight: bolder;
+}
+
+#tracklist {
+  margin-bottom: 10px;
+}
+
+#track-title-header {
+  font-size: $base-font-size - 1;
+  font-weight: 600;
+  margin: 0;
+  padding: 6px;
+  border-bottom: 1px solid #e5e5e5;
 }
