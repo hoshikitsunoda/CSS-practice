@@ -179,3 +179,17 @@ h4 {
   top: 12px;
   left: 45px;
 }
+
+#profile {
+  padding-left: 164px;
+}
+
+#profile-title {
+  font-size: $base-font-size + 5;
+  font-weight: bolder;
+}
+
+#name {
+  text-decoration: none;
+  font-weight: bolder;
+}
