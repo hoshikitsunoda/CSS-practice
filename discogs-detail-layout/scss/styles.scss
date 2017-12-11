@@ -19,6 +19,22 @@ a {
   text-decoration: none;
 }
 
+textarea {
+  font-size: 14px;
+  padding: 9px;
+  height: 70px;
+  min-height: auto;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid #5e5b55;
+  width: 100%;
+  box-shadow:
+    inset 0 1px 2px #b6b4af,
+    inset -1px 0 0 rgba(255, 255, 255, 0.15),
+    inset 1px 0 0 rgba(255, 255, 255, 0.15),
+    0 1px 0 #fff;
+}
+
 .section-content > ul {
   list-style: none;
   padding: 0;
@@ -156,6 +172,12 @@ header {
   font-size: $base-font-size - 2;
 }
 
+.instructions {
+  font-style: normal;
+  line-height: 2em;
+  font-size: 14px;
+}
+
 #logo {
   position: absolute;
   top: 18.6%;
@@ -257,6 +279,50 @@ header {
   padding-left: 164px;
 }
 
+#reviews {
+  margin-top: 39px;
+}
+
+#post-comment {
+  font-size: 14px;
+  color: #999;
+  background-color: #eeefee;
+  cursor: auto;
+  text-shadow: none;
+  border-radius: 3px;
+  border: 1px solid #dadbda;
+  vertical-align: middle;
+  height: 1.9rem;
+  width: 123px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    inset -1px 0 0 rgba(255, 255, 255, 0.025),
+    inset 1px 0 0 rgba(255, 255, 255, 0.025),
+    0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#check-review {
+  position: relative;
+  left: 10px;
+}
+
+#check-label {
+  font-size: 14px;
+  position: relative;
+  left: 11px;
+}
+
+#check-notify {
+  position: relative;
+  left: 23px;
+}
+
+#notify-label {
+  font-size: 14px;
+  position: relative;
+  left: 24px;
+}
+
 #profile-title {
   font-size: $base-font-size + 4;
   font-weight: bolder;
@@ -293,6 +359,10 @@ h3 {
 #slide-wrapper {
   display: block;
   overflow: hidden;
+}
+
+#review-foot {
+  line-height: 3.9rem;
 }
 
 .rec-thumb {
