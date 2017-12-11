@@ -5,7 +5,7 @@ html {
   height: 100vh;
   margin: 0;
   font-size: $base-font-size;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 body {
@@ -105,10 +105,11 @@ h4 {
 }
 
 .content {
+  height: 17px;
   font-size: $base-font-size - 2;
   display: block;
   position: relative;
-  top: -4px;
+  top: -5px;
   padding-left: 95px;
   margin-top: -12px;
 }
@@ -237,18 +238,23 @@ h4 {
 }
 
 #profile-title {
-  font-size: $base-font-size + 5;
+  font-size: $base-font-size + 4;
   font-weight: bolder;
+  margin-bottom: 3px;
 }
 
 #tracklist {
   margin-bottom: 10px;
 }
 
-#track-title-header {
+h3 {
   font-size: $base-font-size - 1;
   font-weight: 600;
   margin: 0;
   padding: 6px;
   border-bottom: 1px solid #e5e5e5;
+}
+
+#company {
+  margin-bottom: 10px;
 }
