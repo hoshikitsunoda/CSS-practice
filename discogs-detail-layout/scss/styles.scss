@@ -307,6 +307,27 @@ h3 {
   height: 205px;
 }
 
+.rec-title {
+  position: relative;
+  margin: 6px 0 0;
+  overflow: hidden;
+  font-size: 13px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.rec-artist {
+  font-weight: normal;
+  position: relative;
+  margin: 4px 0 14px;
+  overflow: hidden;
+  font-size: 13px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .headings > th {
   text-align: left;
   font-size: 87.5%;
