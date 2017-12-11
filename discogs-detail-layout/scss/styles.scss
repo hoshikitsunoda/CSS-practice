@@ -19,7 +19,7 @@ a {
   text-decoration: none;
 }
 
-ul {
+.section-content > ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -27,7 +27,7 @@ ul {
 
 li {
   font-size: 87.5%;
-  padding: 1px 0;
+  padding: 1px;
 }
 
 table {
@@ -60,7 +60,7 @@ h4 {
   font-size: $base-font-size - 2.5;
   color: #fdfefd;
   right: 14.9%;
-  top: 3px;
+  top: 4px;
 }
 
 .container {
@@ -166,10 +166,10 @@ h4 {
 }
 
 #menu {
-  font-size: $base-font-size - 0.5;
+  font-size: $base-font-size + 1;
   position: absolute;
   top: 5.5%;
-  left: 38.6%;
+  left: 38.4%;
   width: 50%;
   list-style: none;
   color: #f1f2f1;
@@ -254,10 +254,6 @@ h4 {
   margin-bottom: 3px;
 }
 
-#tracklist {
-  margin-bottom: 10px;
-}
-
 h3 {
   font-size: $base-font-size - 1;
   font-weight: 600;
@@ -266,6 +262,10 @@ h3 {
   border-bottom: 1px solid #e5e5e5;
 }
 
-#company {
+#tracklist,
+#company,
+#credits,
+#notes,
+#other-versions {
   margin-bottom: 10px;
 }
