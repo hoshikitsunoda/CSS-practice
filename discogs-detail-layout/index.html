@@ -8,19 +8,231 @@
     <title>Discogs Detail Layout</title>
   </head>
   <body>
-    <header>
-      <img id="logo" src="src/img/discogs-white.png" alt="logo">
-      <input id="searchbar" type="text" name="" placeholder="Search artists, albums and more...">
-        <i class="fa fa-search" aria-hidden="true"></i>
-      <ul id="menu">
-        <li id="menu-explore">Explore</li>
-        <li id="menu-marketplace">Marketplace<i class="fa fa-sort-desc" aria-hidden="true"></i></li>
-        <li id="menu-community">Community<i class="fa fa-sort-desc" aria-hidden="true"></i></li>
-      </ul>
-      <i class="fa fa-shopping-cart" aria-hidden="true"></i><h4>63</h4>
-      <i class="fa fa-envelope-o" aria-hidden="true"></i>
-      <img id="user-img" src="src/img/user-img.png" alt="logo"><i id="sort-user" class="fa fa-sort-desc" aria-hidden="true"></i>
-    </header>
+    <div id="outer-wrapper">
+      <header>
+        <img id="logo" src="src/img/discogs-white.png" alt="logo">
+        <input id="searchbar" type="text" name="" placeholder="Search artists, albums and more...">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        <ul id="menu">
+          <li id="menu-explore">Explore</li>
+          <li id="menu-marketplace">Marketplace<i class="fa fa-sort-desc" aria-hidden="true"></i></li>
+          <li id="menu-community">Community<i class="fa fa-sort-desc" aria-hidden="true"></i></li>
+        </ul>
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i><h4 id="cart-num">63</h4>
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <img id="user-img" src="src/img/user-img.png" alt="logo"><i id="sort-user" class="fa fa-sort-desc" aria-hidden="true"></i>
+      </header>
+      <div class="container">
+        <section id="page-content">
+          <section id="artist-title">
+            <div id="img-container">
+              <img id="record-img" src="src/img/sample-image.jpg" alt="sample image">
+              <a href="#" id="more-images">More Images</a>
+            </div>
+            <div id="profile">
+              <div id="profile-title">
+                <a href="#" id="name">Ronnie Boykins</a> ‎– Ronnie Boykins
+              </div>
+              <div class="head">Label:</div>
+              <div class="content"><a href="#">ESP Disk</a> ‎– ESP 3026</div>
+              <div class="head">Format:</div>
+              <div class="content"><a href="#">Vinyl</a>, LP, Album </div>
+              <div class="head">Country:</div>
+              <div class="content"><a href="#">US</a></div>
+              <div class="head">Released:</div>
+              <div class="content"><a href="#">1975</a></div>
+              <div class="head">Genre:</div>
+              <div class="content"><a href="#">Jazz</a></div>
+              <div class="head">Style:</div>
+              <div class="content"><a href="#">Free Jazz</a></div>
+            </div>
+          </section>
+          <section id="tracklist">
+            <h3 id="track-title-header">Tracklist</h3>
+            <div class="section-content">
+              <table>
+                <tr>
+                  <td class="track-number">A1</td>
+                  <td class="track-title">The Will Come, Is Now</td>
+                  <td class="track-time">12:26</td>
+                </tr>
+              </table>
+              <table>
+                <tr>
+                  <td class="track-number">A2</td>
+                  <td class="track-title">Starlight At The Wonder Inn</td>
+                  <td class="track-time">7:28</td>
+                </tr>
+              </table>
+              <table>
+                <tr>
+                  <td class="track-number">A3</td>
+                  <td class="track-title">Demon's Dance</td>
+                  <td class="track-time">3:16</td>
+                </tr>
+              </table>
+              <table>
+                <tr>
+                  <td class="track-number">B1</td>
+                  <td class="track-title">Dawn Is Evening, Afternoon</td>
+                  <td class="track-time">6:12</td>
+                </tr>
+              </table>
+              <table>
+                <tr>
+                  <td class="track-number">B2</td>
+                  <td class="track-title">Tipping On Heels</td>
+                  <td class="track-time">4:47</td>
+                </tr>
+              </table>
+              <table>
+                <tr>
+                  <td class="track-number">B3</td>
+                  <td class="track-title">The Third</td>
+                  <td class="track-time">12:25</td>
+                </tr>
+              </table>
+            </div>
+          </section>
+          <section id="company">
+            <h3 id="companies-etc">Companies, etc.</h3>
+            <div class="section-content">
+              <ul>
+                <li><span>Copyright (c) – </span><a href="#">United International Copyright Representatives, Ltd.</a></li>
+                <li><span>Phonographic Copyright (p) – </span><a href="#">ESP-Disk' Ltd.</a></li>
+              </ul>
+            </div>
+          </section>
+          <section id="credits">
+            <h3 id="credit-contents">Credits</h3>
+            <div class="section-content">
+              <ul>
+                <li><span>Alto Saxophone, Soprano Saxophone – </span><a href="#">Monty Waters</a></li>
+                <li><span>Alto Saxophone, Soprano Saxophone, Flute – </span><a href="#">James Vass</a></li>
+                <li><span>Bass, Sousaphone, Composed By – </span><a href="#">Ronnie Boykins</a></li>
+                <li><span>Congas – </span><a href="#">George Avaloz</a></li>
+                <li><span>Engineer – </span><a href="#">Marzette Watts</a></li>
+                <li><span>Percussion – </span><a href="#">Art Lewis</a></li>
+                <li><span>Photography By – </span><a href="#">Gyda Droscher</a></li>
+                <li><span>Soprano Saxophone, Tenor Saxophone, Flute – </span><a href="#">Joe Ferguson (2)</a></li>
+                <li><span>Trombone – </span><a href="#">Daoud Haroom</a>*</li>
+              </ul>
+            </div>
+          </section>
+          <section id="notes">
+            <h3 id="notes-contents">Notes</h3>
+            <div class="section-content">
+              <ul>
+                <li>Recorded in February 1975.</li>
+              </ul>
+            </div>
+          </section>
+          <section id="other-versions">
+            <h3 id="other-versions-content">Other Versions (4 of 4) <a href="#" id="view-all">View All</a></h3>
+            <section class="section-content">
+              <table>
+                <tr class="headings">
+                  <th class="status"></th>
+                  <th class="other-title"><a href="#">Title</a> (<a href="#">Format</a>)</th>
+                  <th class="other-label"><a href="#">Label</a></th>
+                  <th class="catalog"><a href="#">Cat#</a></th>
+                  <th class="other-country"><a href="#">Country</a></th>
+                  <th class="other-year"><a href="#">Year</a></th>
+                  <th class="skittles"></th>
+                </tr>
+                <tr class="headings-content">
+                  <th class="lighter status colored"></th>
+                  <th class="lighter other-title"><a href="#">The Will Come, Is Now</a> (CD, Album, RE, RM)</th>
+                  <th class="lighter other-label"><a href="#">ESP Disk</a></th>
+                  <th class="lighter catalog">ESP 3026</th>
+                  <th class="lighter other-country">US</th>
+                  <th class="lighter other-year">2009</th>
+                  <th class="skittles"></th>
+                </tr>
+                <tr class="headings-content">
+                  <th class="lighter status colored"></th>
+                  <th class="lighter other-title"><a href="#">The Will Come, Is Now</a> (CD, Album, RE, RM)</th>
+                  <th class="lighter other-label"><a href="#">Abraxas/ESP Disk</a></th>
+                  <th class="lighter catalog">ESP3026</th>
+                  <th class="lighter other-country">Italy</th>
+                  <th class="lighter other-year">2009</th>
+                  <th class="skittles"></th>
+                </tr>
+                <tr class="headings-content">
+                  <th class="lighter status"></th>
+                  <th class="lighter other-title"><a href="#">Ronnie Boykins</a> (CD, Album, RE)</th>
+                  <th class="lighter other-label"><a href="#">ESP Disk</a>, <a href="#">ZYX Music</a></th>
+                  <th class="lighter catalog">ESP 3026-2</th>
+                  <th class="lighter other-country">Germany</th>
+                  <th class="lighter other-year">Unknown</th>
+                  <th class="skittles"></th>
+                </tr>
+                <tr class="headings-content">
+                  <th class="lighter status colored"></th>
+                  <th class="lighter other-title"><a href="#">The Will Come, Is Now</a> (LP, Album, RE)</th>
+                  <th class="lighter other-label"><a href="#">Get Back</a></th>
+                  <th class="lighter catalog">GET 1084</th>
+                  <th class="lighter other-country">Italy</th>
+                  <th class="lighter other-year">2002</th>
+                  <th class="skittles"></th>
+                </tr>
+              </table>
+            </section>
+          </section>
+          <section id="recommendations">
+            <h3 id="recommendations-list">Recommendations</h3>
+            <div class="section-content">
+              <div id="photo-container">
+                <div id="slide-wrapper">
+                  <div class="photo-wrapper">
+                    <img src="src/img/sample-rec1.jpg" class="rec-thumb" alt="">
+                    <h4 class="rec-title"><a href="#"><b>Live At The East</b></a></h4>
+                    <h5 class="rec-artist"><a href="#">Pharoah Sanders</a></h5>
+                  </div>
+                  <div class="photo-wrapper">
+                    <img src="src/img/sample-rec2.jpg" class="rec-thumb" alt="">
+                    <h4 class="rec-title"><a href="#"><b>Summun Bukmun Um</b></a><b>...</b></h4>
+                    <h5 class="rec-artist"><a href="#">Pharoah Sanders</a></h5>
+                  </div>
+                  <div class="photo-wrapper">
+                    <img src="src/img/sample-rec3.jpg" class="rec-thumb" alt="">
+                    <h4 class="rec-title"><a href="#"><b>Geechee Recollections</b></a></h4>
+                    <h5 class="rec-artist"><a href="#">Marion Brown</a></h5>
+                  </div>
+                  <div class="photo-wrapper">
+                    <img src="src/img/sample-rec4.jpg" class="rec-thumb" alt="">
+                    <h4 class="rec-title"><a href="#"><b>The Heliocentric Worl</b></a><b>...</b></h4>
+                    <h5 class="rec-artist"><a href="#">Sun Ra</a>*</h5>
+                  </div>
+                  <div class="photo-wrapper">
+                    <img src="src/img/sample-rec5.jpg" class="rec-thumb" alt="">
+                    <h4 class="rec-title"><a href="#"><b>Village Of The Pharoahs</b></a></h4>
+                    <h5 class="rec-artist"><a href="#">Pharoah Sanders Featu</a>...</h5>
+                  </div>
+                </div>
+                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+              </div>
+            </div>
+          </section>
+          <section id="reviews">
+            <h3 id="user-reviews">Reviews</h3>
+            <section class="section-content">
+              <div class="instructions">
+                Use English only. <a href="#">View Help</a>.
+              </div>
+              <textarea id="review-box" name="review" placeholder="Enter your review or comment"></textarea>
+              <div id="review-foot">
+                <button id="post-comment" type="button" name="button">Post Comment</button>
+                <input id="check-review" type="checkbox" name="is-review" value=""><label id="check-label" for="is-review">My comment is a review</label>
+                <input id="check-notify" type="checkbox" name="is-notify" value=""><label id="notify-label" for="is-review">Notify Me</label>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section id="page-aside">
+        </section>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
