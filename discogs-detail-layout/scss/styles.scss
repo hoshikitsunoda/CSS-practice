@@ -72,7 +72,7 @@ h4 {
   clear: both;
 }
 
-.fa-sort-desc {
+.fa.fa-sort-desc {
   font-size: $base-font-size - 2;
   position: absolute;
   color: #cbcccb;
@@ -126,6 +126,7 @@ h4 {
 }
 
 .section-content {
+  position: relative;
   margin: 0 5px;
   padding: 5px 0;
 }
@@ -267,5 +268,60 @@ h3 {
 #credits,
 #notes,
 #other-versions {
-  margin-bottom: 10px;
+  margin-bottom: 11px;
+}
+
+#view-all {
+  font-size: $base-font-size - 4;
+  font-weight: lighter;
+  margin-left: 1em;
+}
+
+.headings > th {
+  text-align: left;
+  font-size: 87.5%;
+  padding: 7px 5px;
+  padding-top: 9px;
+}
+
+.headings-content > th {
+  text-align: left;
+  font-size: 87.5%;
+  padding: 7px 5px;
+  padding-top: 9px;
+}
+
+.other-title {
+  width: 324px;
+}
+
+.other-label {
+  width: 158px;
+}
+
+.catalog {
+  width: 89px;
+}
+
+.other-country {
+  width: 69.5px;
+}
+
+.status {
+  width: 0.5px;
+  height: 16.5px;
+}
+
+.skittles {
+  width: 2px;
+  height: 16.5px;
+}
+
+.lighter {
+  font-weight: normal;
+  height: 23px;
+}
+
+.lighter.status.colored {
+  background-color: #f2b931;
 }
