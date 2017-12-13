@@ -551,3 +551,28 @@ h3 {
   margin-right: 0;
   border-top: 1px solid #e5e5e5;
 }
+
+.rating-wrapper,
+.share-wrapper {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.rating-wrapper {
+  border-right: 1px solid #e5e5e5;
+  padding: 14px 14px 7px;
+}
+
+.share-wrapper {
+  padding: 15px 14px 7px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#stars {
+  position: relative;
+  top: 3px;
+  left: 33px;
+  width: 86px;
+}
