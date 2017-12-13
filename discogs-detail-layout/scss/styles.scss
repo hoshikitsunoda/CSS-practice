@@ -479,7 +479,8 @@ h3 {
   font-size: 14px;
 }
 
-.add-button {
+.add-button,
+.marketbutton {
   width: 174.59px;
   height: 26px;
   margin: 0;
@@ -497,8 +498,27 @@ h3 {
     0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+.marketbutton {
+  font-size: 14px;
+  position: relative;
+  top: 5px;
+  height: 30px;
+}
+
 #add-want {
   float: right;
+}
+
+#sellbutton {
+  float: right;
+  margin-right: 5px;
+}
+
+#buybutton {
+  color: white;
+  background-color: #4588c4;
+  border: 1px solid #3571a6;
+  background-image: linear-gradient(#4588c4, #3c80be);
 }
 
 .fa.fa-list,
