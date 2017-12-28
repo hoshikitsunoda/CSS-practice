@@ -18,6 +18,11 @@ $box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
   transform: translate(-50%, -50%);
 }
 
+@mixin transform-tilt() {
+  $tilt: rotate(15deg);
+  transform: $tilt;
+}
+
 h1.title {
   font: $title-font;
   color: $cool-red;
@@ -42,4 +47,8 @@ div.container {
   @include square(500px, 300px, rgb(255,0,0), absolute, 0);
   @include center(50%, 50%);
   text-align: $center;
+}
+
+.frame:hover {
+  @include transform-tilt;
 }
