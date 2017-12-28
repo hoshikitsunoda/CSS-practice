@@ -1,0 +1,25 @@
+{
+  "name": "neat-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch sass -o css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bourbon": "^4.3.4",
+    "bourbon-neat": "^1.9.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^3.1.0",
+    "node-bourbon": "^4.2.8",
+    "node-sass": "^4.7.2"
+  },
+  "devDependencies": {
+    "node-neat": "^2.0.0-beta.0"
+  }
+}
