@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bourbon": "^4.3.4",
     "bourbon-neat": "^1.9.0",
     "node-sass": "^4.7.2"
   },
