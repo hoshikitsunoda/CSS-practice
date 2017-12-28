@@ -4,6 +4,20 @@ $center: center;
 $absolute: absolute;
 $box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 
+@mixin square($width, $height, $color, $position, $margin) {
+  width: $width;
+  height: $height;
+  background-color: $color;
+  position: $position;
+  margin: $margin, auto;
+}
+
+@mixin center($top, $left) {
+  top: $top;
+  left: $left;
+  transform: translate(-50%, -50%);
+}
+
 h1.title {
   font: $title-font;
   color: $cool-red;
@@ -16,4 +30,16 @@ div.container {
   background: #fff;
   width: 100%;
   box-shadow: $box-shadow-bottom-only;
+}
+
+.small-blue-square {
+  @include square(500px, 20px, rgb(0,0,255), relative, 0);
+  @include center(70px, 50%);
+  text-align: $center;
+}
+
+.big-red-square {
+  @include square(500px, 300px, rgb(255,0,0), absolute, 0);
+  @include center(50%, 50%);
+  text-align: $center;
 }
