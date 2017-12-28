@@ -3,6 +3,7 @@ $cool-red: #f44336;
 $center: center;
 $absolute: absolute;
 $box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+$awesome-blue: #2196f3;
 
 @mixin square($width, $height, $color, $position, $margin) {
   width: $width;
@@ -92,4 +93,13 @@ ul {
       color: #444;
     }
   }
+}
+
+a {
+  padding: 10px 15px;
+  background-color: $awesome-blue;
+}
+
+a:hover {
+  background-color: invert($awesome-blue);
 }
