@@ -13,6 +13,10 @@
   "dependencies": {
     "bourbon": "^4.3.4",
     "bourbon-neat": "^1.9.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^3.1.0",
+    "node-bourbon": "^4.2.8",
     "node-sass": "^4.7.2"
   },
   "devDependencies": {
