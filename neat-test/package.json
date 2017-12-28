@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch scss -o css"
+    "sass": "node-sass --watch sass -o css"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
   "dependencies": {
     "bourbon-neat": "^1.9.0",
     "node-sass": "^4.7.2"
+  },
+  "devDependencies": {
+    "node-neat": "^2.0.0-beta.0"
   }
 }
