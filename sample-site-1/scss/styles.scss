@@ -61,6 +61,11 @@ div.container {
   cursor: pointer;
 }
 
+.list {
+  font-size: $title-font;
+  color: black;
+}
+
 .confirm {
   @extend .dialog-button;
   background-color: #87bae1;
@@ -71,4 +76,20 @@ div.container {
   @extend .dialog-button;
   background-color: #e4749e;
   float: right;
+}
+
+ul {
+  list-style: none;
+
+  li {
+    font-size: 40px;
+    padding: 15px;
+    display: inline-block;
+
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #444;
+    }
+  }
 }
