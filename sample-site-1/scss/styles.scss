@@ -1,0 +1,105 @@
+$title-font: normal 24px/1.5 'Open Sans', sans-serif;
+$cool-red: #f44336;
+$center: center;
+$absolute: absolute;
+$box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+$awesome-blue: #2196f3;
+
+@mixin square($width, $height, $color, $position, $margin) {
+  width: $width;
+  height: $height;
+  background-color: $color;
+  position: $position;
+  margin: $margin, auto;
+}
+
+@mixin center($top, $left) {
+  top: $top;
+  left: $left;
+  transform: translate(-50%, -50%);
+}
+
+@mixin transform-tilt() {
+  $tilt: rotate(15deg);
+  transform: $tilt;
+}
+
+h1.title {
+  font: $title-font;
+  color: $cool-red;
+  text-align: $center;
+}
+
+div.container {
+  color: $cool-red;
+  text-align: $center;
+  background: #fff;
+  width: 100%;
+  box-shadow: $box-shadow-bottom-only;
+}
+
+.small-blue-square {
+  @include square(500px, 20px, rgb(0,0,255), relative, 0);
+  @include center(70px, 50%);
+  text-align: $center;
+}
+
+.big-red-square {
+  @include square(500px, 300px, rgb(255,0,0), absolute, 0);
+  @include center(50%, 50%);
+  text-align: $center;
+}
+
+.frame:hover {
+  @include transform-tilt;
+}
+
+.dialog-button {
+  box-sizing: border-box;
+  color: #ffffff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  padding: 12px 40px;
+  cursor: pointer;
+}
+
+.list {
+  font-size: $title-font;
+  color: black;
+}
+
+.confirm {
+  @extend .dialog-button;
+  background-color: #87bae1;
+  float: left;
+}
+
+.cancel {
+  @extend .dialog-button;
+  background-color: #e4749e;
+  float: right;
+}
+
+ul {
+  list-style: none;
+
+  li {
+    font-size: 40px;
+    padding: 15px;
+    display: inline-block;
+
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #444;
+    }
+  }
+}
+
+a {
+  padding: 10px 15px;
+  background-color: $awesome-blue;
+}
+
+a:hover {
+  background-color: invert($awesome-blue);
+}
