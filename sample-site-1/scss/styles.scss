@@ -1,0 +1,19 @@
+$title-font: normal 24px/1.5 'Open Sans', sans-serif;
+$cool-red: #f44336;
+$center: center;
+$absolute: absolute;
+$box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+
+h1.title {
+  font: $title-font;
+  color: $cool-red;
+  text-align: $center;
+}
+
+div.container {
+  color: $cool-red;
+  text-align: $center;
+  background: #fff;
+  width: 100%;
+  box-shadow: $box-shadow-bottom-only;
+}
