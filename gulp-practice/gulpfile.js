@@ -1,7 +1,7 @@
 var gulp = require('gulp')
 var sass = require('gulp-sass')
 var browserSync = require('browser-sync').create()
-var connect = require('gulp-connect')
+var useref = require('gulp-useref')
 
 gulp.task('hello-world', function() {
   console.log('hello world')
