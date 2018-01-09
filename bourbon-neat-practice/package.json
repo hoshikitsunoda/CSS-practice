@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bourbon": "^5.0.0",
+    "bourbon-neat": "^1.9.0",
     "node-sass": "^4.7.2"
   }
 }
