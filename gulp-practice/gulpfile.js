@@ -27,15 +27,3 @@ gulp.task('browserSync', function() {
     },
   })
 })
-
-gulp.task('connect', function() {
-  connect.server({
-    root: 'source',
-    port: 8000,
-    livereload: true
-  })
-})
-
-gulp.task('default', ['connect'], function() {
-  gulp.watch();
-});
