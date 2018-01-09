@@ -51,3 +51,7 @@ gulp.task('images', function(){
   })))
   .pipe(gulp.dest('dist/images'))
 })
+
+gulp.task('clean:dist', function() {
+  return del.sync('dist');
+})
