@@ -12,6 +12,10 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('app/css'))
 })
 
+gulp.task('watch', function() {
+  gulp.watch('app/scss/**/*.scss', ['sass'])
+})
+
 gulp.task('connect', function() {
   connect.server({
     root: 'source',
