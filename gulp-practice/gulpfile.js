@@ -7,9 +7,9 @@ gulp.task('hello-world', function() {
 })
 
 gulp.task('sass', function() {
-  return gulp.src('source-files')
+  return gulp.src('app/scss/styles.scss')
     .pipe(sass())
-    .pipe(gulp.dest('destination'))
+    .pipe(gulp.dest('app/css'))
 })
 
 gulp.task('connect', function() {
