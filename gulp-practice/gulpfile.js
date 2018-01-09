@@ -12,3 +12,7 @@ gulp.task('connect', function() {
     livereload: true
   })
 })
+
+gulp.task('default', ['connect'], function() {
+  gulp.watch();
+});
