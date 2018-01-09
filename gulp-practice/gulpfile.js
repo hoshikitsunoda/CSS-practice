@@ -4,6 +4,7 @@ var browserSync = require('browser-sync').create()
 var useref = require('gulp-useref')
 var uglify = require('gulp-uglify')
 var gulpIf = require('gulp-if')
+var cssnano = require('gulp-cssnano')
 
 gulp.task('hello-world', function() {
   console.log('hello world')
