@@ -45,8 +45,8 @@ gulp.task('useref', function(){
 
 gulp.task('images', function(){
   return gulp.src('app/images/**/*.+(png|jpg|gif|svg)')
-  .pipe(imagemin({
-    interlaced: true
-  }))
+  .pipe(cache(imagemin({
+      interlaced: true
+  })))
   .pipe(gulp.dest('dist/images'))
 })
