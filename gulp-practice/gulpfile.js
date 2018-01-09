@@ -5,6 +5,7 @@ var useref = require('gulp-useref')
 var uglify = require('gulp-uglify')
 var gulpIf = require('gulp-if')
 var cssnano = require('gulp-cssnano')
+var imagemin = require('gulp-imagemin')
 
 gulp.task('hello-world', function() {
   console.log('hello world')
