@@ -7,6 +7,7 @@
     "gulp-connect": "^5.2.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.23.3",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
   },
