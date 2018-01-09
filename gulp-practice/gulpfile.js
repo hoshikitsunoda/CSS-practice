@@ -7,6 +7,7 @@ var gulpIf = require('gulp-if')
 var cssnano = require('gulp-cssnano')
 var imagemin = require('gulp-imagemin')
 var cache = require('gulp-cache')
+var del = require('del')
 
 gulp.task('hello-world', function() {
   console.log('hello world')
