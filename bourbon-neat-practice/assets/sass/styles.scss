@@ -8,3 +8,15 @@
   margin-right: auto;
   background-color: #333;
 }
+
+#top-row {
+  @include grid-column(12);
+}
+
+#middle-row {
+  @include grid-column(12);
+}
+
+#bottom-row {
+  @include grid-column(12);
+}
