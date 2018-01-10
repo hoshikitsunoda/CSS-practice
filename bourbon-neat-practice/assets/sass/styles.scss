@@ -45,3 +45,9 @@
 #bottom-row {
   @include grid-column(12);
 }
+
+#indigo {
+  background-color: indigo;
+  @include grid-column(4 of 12);
+  @include grid-shift(8 of 12);
+}
