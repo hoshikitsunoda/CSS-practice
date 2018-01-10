@@ -28,6 +28,14 @@
   @include grid-column(4 of 12);
 }
 
+#red,
+#orange,
+#yellow {
+  @media screen and (max-width: 768px) {
+    @include grid-column(12 of 12);
+  }
+}
+
 #middle-row {
   @include grid-column(12);
 }
