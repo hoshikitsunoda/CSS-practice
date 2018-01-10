@@ -32,6 +32,16 @@
   @include grid-column(12);
 }
 
+#green {
+  background-color: green;
+  @include grid-column(4 of 12);
+}
+
+#blue {
+  background-color: blue;
+  @include grid-column(8 of 12);
+}
+
 #bottom-row {
   @include grid-column(12);
 }
