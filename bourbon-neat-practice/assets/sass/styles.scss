@@ -1,0 +1,61 @@
+@import "bourbon";
+@import "neat";
+
+#main {
+  @include grid-container;
+
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #333;
+}
+
+#top-row {
+  @include grid-column(12);
+}
+
+#red {
+  background-color: red;
+  @include grid-column(4 of 12);
+}
+
+#orange {
+  background-color: orange;
+  @include grid-column(4 of 12);
+}
+
+#yellow {
+  background-color: yellow;
+  @include grid-column(4 of 12);
+}
+
+#red,
+#orange,
+#yellow {
+  @media screen and (max-width: 768px) {
+    @include grid-column(12 of 12);
+  }
+}
+
+#middle-row {
+  @include grid-column(12);
+}
+
+#green {
+  background-color: green;
+  @include grid-column(4 of 12);
+}
+
+#blue {
+  background-color: blue;
+  @include grid-column(8 of 12);
+}
+
+#bottom-row {
+  @include grid-column(12);
+}
+
+#indigo {
+  background-color: indigo;
+  @include grid-column(4 of 12);
+  @include grid-shift(8 of 12);
+}
