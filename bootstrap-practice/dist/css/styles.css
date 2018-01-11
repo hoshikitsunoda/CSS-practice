@@ -13,3 +13,7 @@ p {
   font-size: 16px;
   color: #cdcdcd;
 }
+
+.navbar {
+  margin-bottom: 0;
+}
