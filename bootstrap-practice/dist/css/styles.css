@@ -17,3 +17,14 @@ p {
 .navbar {
   margin-bottom: 0;
 }
+
+.jumbotron {
+  background: #326b6e;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron p {
+  color: white;
+  font-size: 26px;
+}
