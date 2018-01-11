@@ -12,6 +12,7 @@ gulp.task('browserSync', function() {
 
 gulp.task('watch', ['browserSync'], function() {
   gulp.watch('dist/*.html', browserSync.reload)
+  gulp.watch('dist/css/*.css', browserSync.reload)
 })
 
 gulp.task('default',function(callback){
