@@ -1,0 +1,7 @@
+.wrapper > div {
+  background: #eee;
+  padding: 1em; }
+
+.wrapper > div:nth-child(odd) {
+  background: #ddd;
+  padding: 1em; }
