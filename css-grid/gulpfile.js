@@ -39,6 +39,7 @@ gulp.task('watch', ['browserSync', 'sass', 'concat', 'script'], function() {
   gulp.watch('app/css/**/*.css', ['concat'])
   gulp.watch('app/js/**/*.js', ['script'])
   gulp.watch('app/*.html', browserSync.reload)
+  gulp.watch('app/scss/**/*.scss', browserSync.reload)
   gulp.watch('app/js/**/*.js', browserSync.reload)
 })
 
